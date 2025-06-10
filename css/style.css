@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    position: relative;
+    display: flex;
+    height: 400px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.wave {
+    position: absolute;
+    width: 100%;
+  
+}
+/* .header .nigger { 
+    margin-top: 445px;
+    width: 250px;
+    height: 200px;
+    
+    opacity: 0; 
+     transition: opacity 0.5s; 
+    pointer-events: none;
+}
+*/
+
+/*.logo {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1000;
+    
+    pointer-events: none;
+    margin-top: 30px;
+    mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.8) 20%,
+        rgba(0, 0, 0, 0.6) 40%,
+        rgba(0, 0, 0, 0.4) 60%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 0 ) 0%,
+        rgba(0, 0, 0, 0.8) 20%,
+        rgba(0, 0, 0, 0.6) 40%,
+        rgba(0, 0, 0, 0.4) 60%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+ @keyframes fadeOut { 
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+
+.nigger { 
+   
+    mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 1) 100%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 1) 60%,
+        rgba(0, 0, 0, 1) 40%,
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 0%
+    );
+    -webkit-mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, ) 100%,
+        rgba(0, 0, 0, 0.8) 80%,
+        rgba(0, 0, 0, 0.6) 60%,
+        rgba(0, 0, 0, 0.4) 40%,
+        rgba(0, 0, 0, 0.2) 20%,
+        rgba(0, 0, 0, 0) 0%
+    );
+}*/
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+
+/* @keyframes fadeIn { 
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}*/
+
+
+
+.padre{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.contenedor2{
+    width: 950px;
+    height: 550px;
+    display: flex;
+    box-shadow: 10px 10px 10px 10px gray;
+    margin: 30px auto;
+    border-radius: 25px;
+}
+
+.contenedor2 img{
+    opacity: 0.8;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: all .7s ease-in-out;
+    width: 0;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 40px;
+    
+}
+
+.contenedor2 img:hover{
+    width: 400px;
+    filter: contrast(120%);
+    filter: brightness(150px);
+}
+.contenedor2 img:not(:hover){
+
+    filter: blur(1px);
+
+}
+
+.main {
+    padding: 20px;
+}
+
+.arcos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.arcos2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: block;
+    align-items: center;
+    gap: 10px;
+    line-height: 40px;
+}
+
+.item {
+    background-color: #fefefe;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+.titulo {
+    margin-bottom: 10px;
+}
+
+
+
+.footer {
+    background-color: #292828;
+    color: #fff;
+    padding: 50px;
+    margin-top: auto;
+}
+
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer__nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__nav-link:hover {
+    text-decoration: underline;
+}
+
+.mapa{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+.carousel-inner{
+ padding: 50px;
+    
+
+}
+
+.perros {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.perros-img {
+    height: 180px;
+    object-fit: contain;
+}
+
+.mapa{
+
+    border-radius: 25px;
+}
